@@ -1,0 +1,22 @@
+
+<script>
+//Pythagorean calculator
+//W3 n33d AB&C
+//We n33d to squar3 AB&C
+//Activate when user presses button
+function pythag() {
+  var a = prompt("insert value");
+  var asq = a ** 2;
+  //window.alert(asq);
+  var b = prompt("insert value");
+  var bsq = b ** 2;
+  //window.alert(bsq);
+    var c = Math.sqrt(asq + bsq);
+ // window.alert(c);
+ window.alert("Your answer is "+ c.toFixed(3));
+
+}
+</script>
+<button onclick='pythag()'>
+'clickme'
+</button>
